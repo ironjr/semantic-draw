@@ -89,7 +89,7 @@ However, we have decreased the latency **from an hour to a minute**, making the 
 | ![usage1](./assets/feature1.gif) | ![usage2](./assets/feature3.gif) |  ![usage3](./assets/feature2.gif)  |
 | :----------------------------: | :----------------------------: | :----------------------------: |
 
-1. **Interactive image generation from scratch with fine-grained region control.** In other words, you paint images using meainings.
+1. **Interactive image generation from scratch with fine-grained region control.** In other words, you paint images using meanings.
 
 2. **Prompt separation.** Be bothered no more by unintentional content mixing when generating two or more objects at the same time!
 
@@ -107,7 +107,7 @@ However, we have decreased the latency **from an hour to a minute**, making the 
 - ✅ April 30, 2024: Real-time interactive generation demo is now published at [Hugging Face Space](https://huggingface.co/spaces/ironjr/StreamMultiDiffusion)!
 - ✅ April 23, 2024: Real-time interactive generation demo is updated to [version 2](https://github.com/ironjr/semantic-draw/tree/main/demo/stream_v2)! We now have fully responsive interface with `gradio.ImageEditor`. Huge thanks to [@pngwn](https://github.com/pngwn) and Hugging Face 🤗 Gradio team for the [great update (4.27)](https://www.gradio.app/changelog#4-27-0)!
 - ✅ March 24, 2024: Our new demo app _Semantic Palette SDXL_ is out at [Hugging Face Space](https://huggingface.co/spaces/ironjr/SemanticPaletteXL)! Great thanks to [Cagliostro Research Lab](https://cagliostrolab.net/) for the permission of [Animagine XL 3.1](https://huggingface.co/cagliostrolab/animagine-xl-3.1) model used in the demo!
-- ✅ March 24, 2024: We now (experimentally) support SDXL with [Lightning LoRA](https://huggingface.co/ByteDance/SDXL-Lightning) in our semantic palette demo! Streaming type with SDXL-Lighning is under development.
+- ✅ March 24, 2024: We now (experimentally) support SDXL with [Lightning LoRA](https://huggingface.co/ByteDance/SDXL-Lightning) in our semantic palette demo! Streaming type with SDXL-Lightning is under development.
 - ✅ March 23, 2024: We now support `.safetensors` type models. Please see the instructions in Usage section.
 - ✅ March 22, 2024: Our demo app _Semantic Palette_ is now available on [Google Colab](https://colab.research.google.com/github/camenduru/SemanticPalette-jupyter/blob/main/SemanticPalette_jupyter.ipynb)! Huge thanks to [@camenduru](https://github.com/camenduru)!
 - ✅ March 22, 2024: The app _Semantic Palette_ is now included in the repository! Run `python src/demo/semantic_palette/app.py --model "your model here"` to run the app from your local machine.
@@ -141,7 +141,7 @@ This will allow you to use [Flash Diffusion for SD3](https://huggingface.co/jasp
 
 ### Overview
 
-SemanticDraw is served in serveral different forms.
+SemanticDraw is served in several different forms.
 
 1. The main GUI demo powered by Gradio is available at `demo/stream_v2/app.py`. Just type the below line in your command prompt and open `https://localhost:8000` with any web browser will launch the app.
 
@@ -182,7 +182,7 @@ python app.py --model "your stable diffusion 1.5 checkpoint" --height 512 --widt
 - Drawing with _semantic palette_ with streaming interface.
 - Fully web-based GUI, powered by Gradio.
 - Supports any Stable Diffusion v1.5 checkpoint with option `--model`.
-- Supports any-sized canvas (if your VRAM permits!) with opetion `--height`, `--width`.
+- Supports any-sized canvas (if your VRAM permits!) with option `--height`, `--width`.
 - Supports 8 semantic brushes.
 
 #### Run
@@ -218,7 +218,7 @@ Done!
 
 | ![usage1](./assets/instruction1.png) | ![usage2](./assets/instruction2.png) |
 | :----------------------------: | :----------------------------: |
-| Upoad a background image | Type some text prompts |
+| Upload a background image | Type some text prompts |
 | ![usage3](./assets/instruction3.png) | ![usage4](./assets/instruction4.png) |
 | Draw | Press the play button and enjoy 🤩 |
 
